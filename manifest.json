@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "LearnPlan - Learning List",
+    "version": "1.0",
+    "description": "Organize your learning plan with resource links.",
+    "action": {
+        "default_popup": "src/popup.html",
+        "default_icon": "public/icon.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "src/background.js"
+    },
+    "icons": {
+        "16": "public/icon.png",
+        "48": "public/icon.png",
+        "128": "public/icon.png"
+    }
+}
